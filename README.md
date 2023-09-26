@@ -53,6 +53,7 @@ Github: https://github.com/TrueMiguel/09-README-Generator
 <!-- screen shot example of project -->
 <!-- ![Page on start up](assets/Images/screen-shot1.JPG) -->
 
+Link to video: https://drive.google.com/file/d/1jfH53b6bkmvyEIA6Rzt5jW8Q6yHsfFlG/view
 ---
 
 ## Credits <a id="credits"></a>
