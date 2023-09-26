@@ -32,7 +32,7 @@ inquirer
         },
         {
             type:'editor',
-            message: 'List out the feature of the program: ',
+            message: "List out the feature of the program (when enter is pressed it will open notepad which is where you will add the features. Have each feature on it's own seperate line): ",
             name: 'features',
         },
         {
@@ -829,6 +829,8 @@ ${data.description}
 
 - [Installation](#installation)
 - [About The Project](#about_project)
+- [Built With](#built_with)
+- [Features](#features)
 - [Deployment Location](#deployment_location)
 - [Credits](#credits)
 - [License](#license)
@@ -837,7 +839,7 @@ ${data.description}
 
 ---
 
-## Instalation Instructions
+## Instalation Instructions <a id="installation"></a>
 ${data.instalation}
 
 ---
@@ -846,19 +848,26 @@ ${data.instalation}
 <!-- About the Project -->
 ${data.about}
 
-### Built With
+---
+
+### Built With <a id="built_with"></a>
 <!-- Built With -->
 ${data.builtWith}
 
-### Features
+---
+
+### Features <a id="features"></a>
 <!-- Features -->
 
 ${featuresList.map((feature) => `* ${feature}`).join('\n')}
 
-## Deployment Location
+---
+
+## Deployment Location <a id="deployment_location"></a>
 
 <!-- Deployment Location -->
 Live site: ${data.liveSite}
+
 Github: ${data.github}
 
 <!-- screen shot example of project -->
@@ -866,12 +875,12 @@ Github: ${data.github}
 
 ---
 
-## Credits
+## Credits <a id="credits"></a>
 ${data.credit}
 
 ---
 
-## License
+## License <a id="license"></a>
 ${licenseText}
 
 ---
@@ -880,8 +889,8 @@ ${licenseText}
 <!-- Final Note -->
 ${data.finalNote}
 
-## Questions
-For any questions about this program, please reach out to me on GitHub: ${data.githubProfile} or to my email: ${data.githubProfile}
+## Questions <a id="questions"></a>
+For any questions about this program, please reach out to me on GitHub: ${data.githubProfile} or to my email: ${data.email}
 
 ---
     `;
