@@ -852,8 +852,7 @@ ${data.builtWith}
 
 ### Features
 <!-- Features -->
-`//using .map, iterating through featuresList, adding an asterisk with the seperated feature list, and moving onto the next line.
-`
+
 ${featuresList.map((feature) => `* ${feature}`).join('\n')}
 
 ## Deployment Location
@@ -873,7 +872,7 @@ ${data.credit}
 ---
 
 ## License
-${licenseText }
+${licenseText}
 
 ---
 
