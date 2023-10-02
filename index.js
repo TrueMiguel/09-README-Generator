@@ -47,6 +47,11 @@ inquirer
         },
         {
             type:'input',
+            message: 'Explain how the test runs on the app: ',
+            name: 'testing',
+        },
+        {
+            type:'input',
             message: 'List any collaborators, third-party assets, and anyone else that deserves credit: ',
             name: 'credit',
         },
@@ -832,6 +837,7 @@ ${data.description}
 - [Built With](#built_with)
 - [Features](#features)
 - [Deployment Location](#deployment_location)
+- [Testing](#testing)
 - [Credits](#credits)
 - [License](#license)
 - [Final Note](#final_note)
@@ -872,6 +878,11 @@ Github: ${data.github}
 
 <!-- screen shot example of project -->
 <!-- ![Page on start up](assets/Images/screen-shot1.JPG) -->
+
+---
+
+## Testing <a id="testing"></a>
+${data.testing}
 
 ---
 
